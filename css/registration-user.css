@@ -1,0 +1,268 @@
+body {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0 auto;
+}
+
+.container {
+    width: 100%;
+    max-width: 1216px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+}
+
+.header-first {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.header-h2 {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: #009661;
+}
+
+.language {
+    border: 0;
+    font-family: "Manrope", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: #252525;
+    background: none;
+    cursor: pointer;
+}
+
+.header-txt {
+    font-family: "Manrope", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: #252525;
+    text-decoration: none;
+}
+
+.header-btns {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.header-btn {
+    font-family: "Manrope", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: #009661;
+    cursor: pointer;
+}
+
+/* ИСПРАВЛЕНО: Стиль для ссылки, которая выглядит как кнопка */
+.header-btn-2 {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    padding: 16px 32px;
+    background: rgba(70, 137, 102, 0.06);
+    border: 0;
+    cursor: pointer;
+    font-family: "Manrope", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #009661;
+    text-decoration: none;
+}
+
+.main {
+    background: rgba(139, 149, 158, 0.05);
+    text-align: center;
+}
+
+.full-form {
+    display: flex;
+    justify-content: center;
+    padding-top: 90px;
+}
+
+.form {
+    background: #FFFFFF;
+    border-radius: 8px;
+    padding: 60px 90px;
+    width: 100%;
+    max-width: 418px;
+    box-shadow: 0px 10px 50px rgba(139, 149, 158, 0.2);
+}
+
+.form-title {
+    font-family: "Manrope", sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    color: #252525;
+    margin: 0;
+}
+
+.form-title-mini {
+    font-family: "Manrope", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #8B959E;
+    margin-top: 8px;
+}
+
+.form-contents {
+    display: grid;
+    padding-top: 48px;
+    row-gap: 16px;
+}
+
+.form-content {
+    text-align: left;
+}
+
+.form-content-p {
+    font-family: "Manrope", sans-serif;
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.form-content-input {
+    padding: 16px 20px;
+    border: 2px solid #E9E9E9;
+    border-radius: 2px;
+    width: 100%;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.checkbox-class {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.checkbox-txt {
+    font-family: "Manrope", sans-serif;
+    font-size: 14px;
+    color: #8B959E;
+}
+
+.checkbox-txt-2 {
+    font-family: "Manrope", sans-serif;
+    font-size: 14px;
+    color: #009661;
+}
+
+.form-btn {
+    background: #009661;
+    border-radius: 4px;
+    padding: 16px 32px;
+    border: 0;
+    width: 100%;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+.form-btn-txt {
+    font-family: "Manrope", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.registration-question {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    padding: 32px 0 150px;
+}
+
+.registration-question-a {
+    font-family: "Manrope", sans-serif;
+    font-weight: 700;
+    color: #009661;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.footer {
+    background: #1B1B1E;
+    padding-top: 1px;
+}
+
+.footer-line {
+    background: #858586;
+    height: 1px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 0 36px;
+}
+
+.footer-content-h2 {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 48px;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.footer-content-p {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 14px;
+}
+
+.footer-content-p-2 {
+    color: #FFFFFF;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.footer-mini {
+    border-top: 1px solid #858586;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-mini-h2 {
+    font-family: "Manrope", sans-serif;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.profile-menu:hover .menu-content {
+    display: block;
+}
+
+.menu-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #fff;
+    min-width: 233px;
+    box-shadow: 0px 10px 50px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    z-index: 10;
+}
+
+.menu-content-a {
+    padding: 12px;
+    text-decoration: none;
+    display: block;
+    color: #8B959E;
+    font-size: 14px;
+}

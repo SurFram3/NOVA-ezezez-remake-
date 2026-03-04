@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600;700&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/announcement.css">
+    <title>Создание объявления | NOVO</title>
+</head>
+<body class="page-body">
+
+    <div class="container">
+        <header class="main-header">
+            <div class="main-header__logo">NOVO SELLER</div>
+            
+            <div class="main-header__controls">
+                <select name="language" class="ui-select">
+                    <option value="" disabled selected>Язык</option>
+                    <option value="russian">Русский</option>
+                    <option value="english">English</option>
+                </select>
+
+                <select name="currency" class="ui-select">
+                    <option value="" disabled selected>Валюта</option>
+                    <option value="rub">RUB ₽</option>
+                    <option value="gbp">GBP £</option>
+                </select>
+
+                <button class="btn btn--primary">Перейти на NOVO</button>
+            </div>
+        </header>
+
+        <h1 class="page-title">Создание объявления</h1>
+
+        <nav class="main-nav">
+            <a href="/myprof.html" class="main-nav__item">Мои объявления</a>
+            <a href="#" class="main-nav__item">
+                Сообщения <span class="main-nav__badge">(4 новых)</span>
+            </a>
+            <a href="/subscription.html" class="main-nav__item">Управление подпиской</a>
+            <a href="/settings.html" class="main-nav__item main-nav__item--settings">
+                <img src="/img/settings-1.svg" alt="icon"> Настройки профиля
+            </a>
+        </nav>
+    </div>
+
+    <main class="content-area">
+        <div class="container">
+            <div class="stats-row">
+                <span class="stats-row__text">Использовано объявлений:</span>
+                <span class="stats-row__count">4/10</span>
+            </div>
+
+            <div class="ad-card">
+                <div class="ad-card__top">
+                    <a href="javascript:history.back()" class="ad-card__back-link">&lt; Назад</a>
+                    <h2 class="ad-card__subtitle">Создание нового объявления</h2>
+                </div>
+
+                <div class="ad-card__form">
+                    <section class="form-section">
+                        <h3 class="form-section__title">Обзор транспортного средства</h3>
+                        
+                        <div class="form-grid">
+                            <div class="form-group">
+                                <label class="form-group__label">Категория</label>
+                                <input type="text" class="form-group__input" placeholder="Введите категорию">
+                            </div>
+                            <div class="form-group">
+                                <label class="form-group__label">Год начиная с</label>
+                                <input type="number" class="form-group__input" placeholder="2024">
+                            </div>
+                            <div class="form-group">
+                                <label class="form-group__label">Марка</label>
+                                <input type="text" class="form-group__input">
+                            </div>
+                            <div class="form-group">
+                                <label class="form-group__label">Пробег</label>
+                                <input type="text" class="form-group__input">
+                            </div>
+                            </div>
+                    </section>
+
+                    <section class="form-section">
+                        <h3 class="form-section__title">Медиа файлы</h3>
+                        <div class="photo-uploader">
+                            <div class="photo-uploader__grid">
+                                <label class="photo-label photo-label--main">
+                                    <input type="file" accept="image/*" class="photo-input">
+                                    <span class="photo-label__text">Нажмите, чтобы добавить главное фото</span>
+                                </label>
+                                <label class="photo-label photo-label--slot">
+                                    <input type="file" accept="image/*" class="photo-input">
+                                    <span class="photo-label__icon">+</span>
+                                </label>
+                                <label class="photo-label photo-label--slot">
+                                    <input type="file" accept="image/*" class="photo-input">
+                                    <span class="photo-label__icon">+</span>
+                                </label>
+                            </div>
+                        </div>
+                            <button type="button" class="btn-add-more">+ Добавить еще фото</button>
+                        </section>
+
+                        <section class="form-section">
+                            <h3 class="form-section__title">Описание</h3>
+                            <div class="editor">
+                                <div class="editor__toolbar">
+                                    <button type="button" onclick="execAction('bold')">B</button>
+                                    <button type="button" onclick="execAction('italic')">I</button>
+                                    <button type="button" onclick="execAction('underline')">U</button>
+                                    <button type="button" onclick="execAction('formatBlock', 'H1')">H1</button>
+                                </div>
+                                <div id="editor" class="editor__field" contenteditable="true"></div>
+                            </div>
+                        </section>
+
+                        <div class="form-footer">
+                            <button class="btn btn--outline">Предпросмотр</button>
+                            <button class="btn btn--primary" onclick="saveData()">Сохранить изменения</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <div class="main-footer__grid">
+                <div class="main-footer__info">
+                    <div class="main-footer__logo">NOVO</div>
+                    <p class="main-footer__desc">Маркетплейс коммерческого транспорта и тяжелой техники</p>
+                </div>
+                <div class="main-footer__col">
+                    <h4 class="main-footer__caption">Покупателю</h4>
+                    <a href="#" class="main-footer__link">Служба поддержки</a>
+                </div>
+                <div class="main-footer__col">
+                    <h4 class="main-footer__caption">Следите за нами</h4>
+                    <div class="main-footer__socials">
+                        </div>
+                </div>
+            </div>
+            <div class="main-footer__bottom">
+                © 2019–2026 Группа компаний «NOVO»
+            </div>
+        </div>
+    </footer>
+
+    <script src="/js/announcement.js"></script>
+</body>
+</html>

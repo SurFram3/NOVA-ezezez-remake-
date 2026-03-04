@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&family=Manrope:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/log-in.css">
+    <title>Вход в систему</title>
+</head>
+<body>
+    <div class="ogranichitel">
+        <header class="shapka">
+            <div class="levaya-chast">
+                <h2 class="logo-tekst">NOVO</h2>
+                <select class="vibor-spisok">
+                    <option>Язык</option>
+                    <option>Русский</option>
+                    <option>English</option>
+                    <option>Український</option>
+                </select>
+                <select class="vibor-spisok">
+                    <option>Валюта</option>
+                    <option>RUB ₽</option>
+                    <option>GBP £</option>
+                    <option>ISO ₴</option>
+                </select>
+                <a class="ssilka-poisk" href="#">Поиск</a>
+            </div>
+            <div class="pravaya-chast">
+                <div class="menyu-profilya">
+                    <span class="knopka-profil">Мой профиль</span>
+                    <div class="vipadashka">
+                        <a href="/favorites" class="punkt-menyu">Избранное</a>
+                        <a href="/messages" class="punkt-menyu">Сообщения <span class="zeleniy-tekst">(4 новых)</span></a>
+                        <a href="/settings-user.html" class="punkt-menyu">Настройки профиля</a>
+                    </div>
+                </div>
+                <a href="/index.html" class="perehod-btn">Перейти на NOVO</a>
+            </div>
+        </header>
+    </div>
+
+    <section class="osnovnoy-blok">
+        <div class="ogranichitel">
+            <div class="centrovka-formy">
+                <form class="belaya-forma">
+                    <h2 class="zagolovok-formy">Вход в акаунт</h2>
+                    <div class="spisok-poley">
+                        <div class="pole-blok">
+                            <p class="podpis-polya">E-mail</p>
+                            <input class="pole-vvoda" placeholder="google@gmail.com" type="text">
+                        </div>
+                        <div class="pole-blok">
+                            <p class="podpis-polya">Пароль</p>
+                            <input class="pole-vvoda" type="password">
+                        </div>
+                    </div>
+                    <div class="galochka-blok">
+                        <input type="checkbox" class="kvadratik">
+                        <p class="tekst-galochki">Не выходить из системы</p>
+                    </div>
+                    <button type="submit" class="knopka-prodolzhit">
+                        <span>Продолжить</span>
+                    </button>
+                </form>
+            </div>
+            <div class="vopros-regi">
+                <span class="tekst-voprosa">Нет аккаунта?</span>
+                <a class="ssilka-regi" href="/registration-user.html">Регистрация</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="podval">
+        <div class="podval-liniya"></div>
+        <div class="ogranichitel">
+            <div class="podval-kontent">
+                <div class="podval-info">
+                    <h2 class="podval-logo">NOVO</h2>
+                    <p class="podval-p">Маркетплейс коммерческого транспорта</p>
+                </div>
+                <div class="podval-info">
+                    <h2 class="podval-zag">Покупателю</h2>
+                    <p class="podval-link">Служба поддержки</p>
+                </div>
+                <div class="podval-info">
+                    <h2 class="podval-zag">Следите за нами</h2>
+                    <div class="soc-seti">
+                        <img src="/img/facebook-logo-button.svg" alt="Facebook">
+                        <img src="/img/instagram%201.svg" alt="Instagram">
+                        <img src="/img/youtube.svg" alt="YouTube">
+                    </div>
+                </div>
+            </div>
+            <div class="podval-niz">
+                <h2 class="copy">© 2019–2020 Группа компаний «NOVO»</h2>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

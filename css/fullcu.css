@@ -1,0 +1,150 @@
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+}
+
+.wrap {
+    width: 100%;
+    max-width: 1216px;
+    margin: 0 auto;
+}
+
+.top-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.left-side {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo {
+    font-family: 'IBM Plex Sans';
+    font-weight: 700;
+    font-size: 30px;
+    color: #009661;
+}
+
+.select-box {
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.user-menu {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    background: #fff;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    min-width: 200px;
+}
+
+.user-menu:hover .dropdown {
+    display: block;
+}
+
+.btn-back {
+    background: rgba(70, 137, 102, 0.06);
+    border: none;
+    padding: 15px 30px;
+    border-radius: 4px;
+}
+
+.btn-back a {
+    text-decoration: none;
+    color: #009661;
+    font-weight: 700;
+}
+
+.content-section {
+    background: #f9f9f9;
+    padding-bottom: 50px;
+}
+
+.main-card {
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.big-img { width: 100%; border-radius: 4px; }
+
+.thumbs { display: flex; gap: 10px; }
+
+.details-box {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.line {
+    height: 1px;
+    background: #eee;
+    margin: 15px 0;
+}
+
+.price-box {
+    background: #fff;
+    margin-top: 20px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.price-val {
+    font-size: 30px;
+    color: #009661;
+    font-weight: 500;
+}
+
+.btn-contact {
+    background: #009661;
+    color: #fff;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 4px;
+    font-weight: 700;
+}
+
+.table-view {
+    display: flex;
+    margin-top: 20px;
+}
+
+.row-gray { background: #f4f4f4; padding: 15px; border-radius: 4px; }
+.row-white { padding: 15px; }
+
+.grid-items {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.item-card { background: #fff; border-radius: 8px; overflow: hidden; }
+
+.main-footer {
+    background: #1B1B1E;
+    color: #fff;
+    padding-top: 40px;
+}

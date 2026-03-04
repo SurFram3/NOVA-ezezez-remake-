@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="ru"> <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Commissioner:wght@100..900&family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Lato:wght@100;300;400;700;900&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:wght@800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="/css/settings.css">
+    <title>Settings</title>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1 class="header-h2">NOVO SELLER</h1>
+            
+            <select id="language-select" name="Язык" class="language">
+                <option value="moscow" class="language-txt">Язык</option>
+                <option value="russian">Русский</option>
+                <option value="english">English</option>
+                <option value="ukranian">Український</option>
+            </select>
+            
+            <select id="currency-select" name="Валюта" class="language">
+                <option value="moscow" class="language-txt">Валюта</option>
+                <option value="russian">RUB ₽</option>
+                <option value="english">GBP £</option>
+                <option value="ukranian">ISO ₴</option>
+            </select>
+            
+            <button class="header-btn" type="button">
+                <span class="header-btn-txt">Перейти на NOVO</span>
+            </button>
+        </header>
+
+        <h2 class="ah-h2">Настройки открыты</h2>
+        <nav class="nav">
+            <div class="nav-block"><a href="/myprof.html" class="nav-txt">Мои объявления</a></div>
+            <div class="nav-block"><a href="#" class="nav-txt">Сообщения</a><span class="nav-txt-2">(4 новых)</span></div>
+            <div class="nav-block"><a href="/subscription.html" class="nav-txt">Управление подпиской</a></div>
+            <div class="nav-block"><img src="/img/settings-1.svg" class="settings-1" alt="Иконка настроек"><a href="/settings.html" class="nav-txt">Настройки профиля</a></div>
+        </nav>
+    </div>
+
+    <div class="modal-card-overlay hidden">
+        <div class="modal-card">
+            <img src="/img/success-1.svg" class="success-1" alt="Успешно">
+            <h2 class="modal-card-h2">Подтвердите смену пароля</h2>
+            <p class="modal-card-p">На ваш новый E-mail адрес была отправлена<br>
+                ссылка для подтверждения смены пароля</p>
+            <button class="btn-back" type="button">
+                <span class="btn-back-txt">Назад к настройкам</span>
+            </button>
+        </div>
+    </div>
+
+    <section class="main">
+        <div class="container">
+            <h2 class="main-h2">Профиль OTP Leasing</h2>
+            <p class="main-p" role="button" style="cursor: pointer;">Выйти из аккаунта</p>
+            
+            <div class="accordions">
+                <div class="accordion item-1">
+                    <div class="accordion-content">
+                        <p class="accordion-txt">Настройки акаунта</p>
+                        <img src="/img/accordion-img.svg" class="accordion-img" alt="Раскрыть">
+                    </div>
+                    <div class="accordion-toogle hidden">
+                        <div class="accordion-content-line"></div>
+                        <div class="accordion-toogle-content">
+                             <h3 class="accordion-toogle-h2">Ваш E-mail адрес:</h3> <p class="accordion-toogle-p">email@gmail.com</p>
+                             <div class="accordion-toogle-inputs">
+                                <div class="accordion-toogle-input">
+                                    <span class="accordion-toogle-input-span">Изменить E-mail адрес</span>
+                                    <p class="accordion-toogle-input-h2">Введите новый E-mail адрес</p>
+                                    <input type="email" class="accordion-toogle-input-class" placeholder="google@gmail.com">
+                                    <div class="accordion-toogle-input-btn-all">
+                                        <button class="accordion-toogle-input-btn" type="button">
+                                            <span class="accordion-toogle-input-btn-txt">Сохранить</span>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="accordion-toogle-input">
+                                    <span class="accordion-toogle-input-span">Изменить пароль</span>
+                                    <p class="accordion-toogle-input-h2">Введите новый пароль</p>
+                                    <input type="password" class="accordion-toogle-input-class">
+                                    <div class="accordion-toogle-input-btn-all">
+                                        <button class="accordion-toogle-input-btn" type="button">
+                                            <span class="accordion-toogle-input-btn-txt">Сохранить</span>
+                                        </button>
+                                        <p class="accordion-toogle-input-txt" style="cursor:pointer;">Забыли пароль?</p>
+                                    </div>
+                                </div>
+                             </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion item-2">
+                    <div class="accordion-content">
+                        <p class="accordion-txt">Изменить контактную информацию</p>
+                        <img src="/img/accordion-img.svg" class="accordion-img" alt="Раскрыть">
+                    </div>
+                    <div class="accordion-toogle hidden">
+                        <div class="accordion-content-line"></div>
+                        <div class="accordion-toogle-content">
+                             <h3 class="accordion-2-toogle-h2">Тут вы можете поменять информацию про компанию</h3>
+                             <div class="accordion-toogle-inputs-2">
+                                <div class="accordion-toogle-input">
+                                    <p class="accordion-toogle-input-h2">Название компании</p>
+                                    <input type="text" class="accordion-toogle-input-class" placeholder="Тарас">
+                                </div>
+                                <div class="accordion-toogle-input">
+                                    <p class="accordion-toogle-input-h2">Страна</p>
+                                    <input type="text" class="accordion-toogle-input-class">
+                                </div>
+                             </div>
+                             <div class="accordion-toogle-inputs-2">
+                                <div class="accordion-toogle-input">
+                                    <p class="accordion-toogle-input-h2">Город</p>
+                                    <input type="text" class="accordion-toogle-input-class">
+                                </div>
+                                <div class="accordion-toogle-input">
+                                    <p class="accordion-toogle-input-h2">Адрес</p>
+                                    <input type="text" class="accordion-toogle-input-class">
+                                </div>
+                             </div>
+                             <div class="accordion-toogle-inputs-2">
+                                <div class="accordion-toogle-input">
+                                    <p class="accordion-toogle-input-h2">Почтовый индекс</p>
+                                    <input type="text" class="accordion-toogle-input-class">
+                                </div>
+                                <div class="accordion-toogle-input">
+                                    <p class="accordion-toogle-input-h2">Мобильный телефон</p>
+                                    <input type="tel" class="accordion-toogle-input-class">
+                                </div>
+                             </div>
+                             <div class="accordion-toogle-inputs-2">
+                                <div class="accordion-toogle-input">
+                                    <p class="accordion-toogle-input-h2">Веб-Сайт</p>
+                                    <input type="url" class="accordion-toogle-input-class">
+                                </div>
+                                <div class="accordion-toogle-input">
+                                    <p class="accordion-toogle-input-h2">Время работы</p>
+                                    <input type="time" class="accordion-toogle-input-class">
+                                </div>
+                             </div>
+                             <div class="accordion-toogle-input-btn-all">
+                                 <button class="accordion-toogle-input-btn" type="button">Сохранить изменения</button>
+                             </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-line"></div>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-content-txt">
+                    <h2 class="footer-content-h2">NOVO</h2>
+                    <p class="footer-content-p">Маркетплейс коммерческого транспорта<br> и тяжелой техники</p>
+                </div>
+                <div class="footer-content-txt">
+                    <h3 class="footer-content-h2-2">Покупателю</h3>
+                    <p class="footer-content-p-2">Служба поддержки</p>
+                </div>
+                <div class="footer-content-txt">
+                    <h3 class="footer-content-h2-2">Следите за нами</h3>
+                    <img src="/img/facebook-logo-button.svg" class="facebook-logo-button" alt="Facebook">
+                    <img src="/img/instagram-1.svg" class="instagram-1" alt="Instagram">
+                    <img src="/img/youtube.svg" class="youtube" alt="YouTube">
+                </div>
+            </div>
+            <div class="footer-mini">
+                <p class="footer-mini-h2">© 2019–2020 Группа компаний «NOVO»</p>
+            </div>
+        </div>
+    </footer>
+    <script src="/js/settings.js"></script>
+</body>
+</html>

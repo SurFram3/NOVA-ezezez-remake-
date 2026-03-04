@@ -1,0 +1,261 @@
+body{
+width: 100%;
+box-sizing: border-box;
+padding: 0px;
+margin: 0 auto;
+overflow: x;
+}
+.container{
+width: 100%;
+max-width: 1216px;
+margin: 0 auto;
+}
+.ibm-plex-sans-uniquifier {
+font-family: "IBM Plex Sans", sans-serif;
+font-optical-sizing: auto;
+font-weight: weight;
+font-style: normal;
+font-variation-settings:
+"wdth" 100;
+}
+.manrope-uniquifier{
+font-family: "Manrope", sans-serif;
+font-optical-sizing: auto;
+font-weight: weight;
+font-style: normal;
+}
+.header{
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.header-h2{
+font-family: IBM Plex Sans;
+font-weight: 700;
+font-size: 30px;
+line-height: 24px;
+letter-spacing: 0%;
+color: #252525;
+}
+.language{
+border: 0;
+font-family: Manrope;
+font-weight: 600;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0%;
+color: #252525;
+}
+.header-btn{
+width: 203;
+height: 56px;
+border-radius: 4px;
+padding-top: 16px;
+padding-right: 32px;
+padding-bottom: 16px;
+padding-left: 32px;
+gap: 10px;
+background: #009661;
+cursor: pointer;
+border: 0;
+}
+.header-btn-txt{
+font-family: Manrope;
+font-weight: 700;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: right;
+text-transform: uppercase;
+color: #ffffff;    
+}
+.registration-form{
+padding-top: 90px;
+}
+.registration-h2{
+font-family: Manrope;
+font-weight: 700;
+font-size: 45px;
+line-height: 150%;
+letter-spacing: 0%;
+color: #252525;
+margin: 0;
+text-align: center;
+}
+.registration-p{
+font-family: Manrope;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0%;
+color: #8B959E;
+text-align: center;
+}
+.input-txt{
+font-family: Manrope;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0%;
+color: #8B959E;
+margin: 0;  
+margin-bottom: 8px; 
+}
+.input-1{
+width: 392px;
+border: 2px solid #E9E9E9;
+padding:16px 20px;
+}
+.input-1::placeholder{
+font-family: Manrope;
+font-weight: 500;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0%;
+color: #252525;
+}
+.form{
+display: flex;
+gap: 20px;
+justify-content: center;
+align-items: end;
+margin-top: 16px;
+}
+.form-h2{
+font-family: Manrope;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0%;
+color: #252525;
+}
+.form-2{
+padding-left: 163px;
+}
+.checkbox-txt-1{
+font-family: Manrope;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0%;
+color: #8B959E;
+}
+.checkbox-txt-2{
+font-family: Manrope;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0%;
+color: #009661;
+}
+.checkbox-all{
+text-align: center;
+padding-top: 24px;
+}
+.btn-form-center{
+text-align: center;
+margin-top: 48px;
+margin-bottom: 228px;
+}
+.btn-form{
+width: 165px;
+height: 56px;
+border-radius: 4px;
+padding-top: 16px;
+padding-right: 32px;
+padding-bottom: 16px;
+padding-left: 32px;
+background: #009661;    
+cursor: pointer;
+border: 0;
+}
+.btn-form-txt{
+font-family: Manrope;
+font-weight: 700;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0%;
+text-transform: uppercase;
+color: #ffffff;
+}
+.footer{
+background: #1B1B1E;
+width: 100%;
+}
+.footer-line{
+border-width: 1px;
+width: 100%;
+background: #858586;
+height: 1px;
+}
+.footer-content{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding-top: 60px;
+padding-bottom: 36px;
+}
+.footer-content-h2{
+font-family: IBM Plex Sans;
+font-weight: 600;
+font-size: 48px;
+line-height: 130%;
+letter-spacing: 25%;
+vertical-align: middle;
+color: #FFFFFF;
+margin: 0;
+}
+.footer-content-p{
+font-family: Manrope;
+font-weight: 500;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0%;
+opacity: 0.6;
+color: #FFFFFF;
+}
+.footer-content-h2-2{
+font-family: Manrope;
+font-weight: 500;
+font-size: 14px;
+line-height: 150%;
+letter-spacing: 0%;
+vertical-align: middle;
+opacity: 0.6;
+color: #FFFFFF;
+}
+.footer-content-p-2{
+font-family: Manrope;
+font-weight: 700;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0%;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.footer-content-h2-3{
+font-family: Manrope;
+font-weight: 500;
+font-size: 14px;
+line-height: 150%;
+letter-spacing: 0%;
+vertical-align: middle;
+opacity: 0.6;
+color: #141416;
+}
+.footer-mini{
+border: 2px solid #858586;
+width: 100%;
+height: 56px;
+border-width: 2px;
+}
+.footer-mini-h2{
+font-family: Manrope;
+font-weight: 500;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0%;
+opacity: 0.6;
+color: #FFFFFF;
+text-align: center;
+}

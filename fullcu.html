@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/fullcu.css">
+    <title>Карточка товара</title>
+</head>
+<body>
+    <div class="wrap">
+        <header class="top-nav">
+            <div class="left-side">
+                <h2 class="logo">NOVO</h2>
+                <select class="select-box">
+                    <option value="moscow">Язык</option>
+                    <option value="russian">Русский</option>
+                    <option value="english">English</option>
+                </select>
+                <select class="select-box">
+                    <option value="rub">Валюта</option>
+                    <option value="russian">RUB ₽</option>
+                    <option value="english">GBP £</option>
+                </select>
+                <a class="search-link" href="#">Поиск</a>
+            </div>
+            <div class="right-side">
+                <div class="user-menu">
+                    <span class="profile-link">Мой профиль</span>
+                    <div class="dropdown">
+                        <a href="/favorites" class="drop-item">Избранное</a>
+                        <a href="/messages" class="drop-item">Сообщения <span class="green-text">(4 новых)</span></a>
+                        <a href="/settings" class="drop-item">Настройки</a>
+                    </div>
+                </div>
+                <a href="/index.html" class="btn-back" style="text-decoration: none; display: inline-flex; align-items: center;">Перейти на NOVO</a>
+            </div>
+        </header>
+    </div>
+
+    <section class="content-section">
+        <div class="wrap">
+            <div class="breadcrumbs">
+                <a href="#">Главная</a> <span>></span>
+                <a href="#">Транспорт</a> <span>></span>
+                <a href="#">Грузовики</a> <span>></span>
+                <a href="#" class="active-crumb">Nissan</a>
+            </div>
+
+            <div class="main-card">
+                <div class="gallery">
+                    <img src="/img/img1.png" class="big-img" alt="Nissan Eco T 100">
+                    <div class="thumbs">
+                        <img src="/img/full-card-img-2.png" class="small-img" alt="Вид сбоку">
+                        <img src="/img/full-card-img-3.png" class="small-img" alt="Вид сзади">
+                        <img src="/img/full-card-img-4.png" class="small-img" alt="Интерьер">
+                        <img src="/img/full-card-img-5.png" class="small-img" alt="Двигатель">
+                    </div>
+                </div>
+
+                <div class="info-side">
+                    <div class="details-box">
+                        <h2 class="item-title">Nissan Eco T 100 Paardenvervoer / BJ: 1995</h2>
+                        <p class="category-name">Закрытые грузовые автомобили</p>
+                        <div class="line"></div>
+                        <div class="specs-grid">
+                            <div class="spec-col">
+                                <h3>Год выпуска</h3>
+                                <p>1996 год</p>
+                            </div>
+                            <div class="spec-col">
+                                <h3>Пробег</h3>
+                                <p>360 000 km</p>
+                            </div>
+                            <div class="spec-col">
+                                <h3>Цена брутто</h3>
+                                <p>3 751 €</p>
+                            </div>
+                        </div>
+                        <div class="line"></div>
+                        <a href="#" class="seller-link">Смотреть все позиции продавца OTP Leasing</a>
+                    </div>
+
+                    <div class="price-box">
+                        <span class="price-val">3 100€</span>
+                        <button class="btn-contact">Написать продавцу</button>
+                    </div>
+                </div>
+            </div>
+
+            <h2 class="section-label">Обзор транспортного средства</h2>
+            <div class="table-view">
+                <div class="table-col labels">
+                    <div class="row-gray"><span>Категория</span></div>
+                    <div class="row-white"><span>Марка</span></div>
+                    <div class="row-gray"><span>Модель</span></div>
+                    <div class="row-white"><span>Год</span></div>
+                </div>
+                <div class="table-col values">
+                    <div class="row-gray"><b>Грузовики</b></div>
+                    <div class="row-white"><b>Nissan</b></div>
+                    <div class="row-gray"><b>Eco T 100</b></div>
+                    <div class="row-white"><b>1996</b></div>
+                </div>
+            </div>
+
+            <div class="text-block">
+                <h2 class="title-h2">Описание</h2>
+                <p class="desc-text">А также диаграммы связей являются только методом политического участия...</p>
+                <h3 class="title-h3">Дополнительно</h3>
+                <p class="desc-text">Перспективное планирование обусловливает важность укрепления ценностей.</p>
+                <span class="show-more">Показать больше</span>
+            </div>
+
+            <h2 class="section-label">Похожие объявления</h2>
+            <div class="grid-items">
+                <div class="item-card">
+                    <img src="/img/car1.png" alt="Opel COMBO Airco">
+                    <div class="item-pad">
+                        <h3 style="font-size: inherit; margin: 0;">Opel COMBO Airco</h3>
+                        <div class="item-bottom">
+                            <span class="loc">Netherlands</span>
+                            <span class="cost">1 500€</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="item-card">
+                    <img src="/img/car2.png" alt="Lider 2020 FLATBED">
+                    <div class="item-pad">
+                        <h3 style="font-size: inherit; margin: 0;">Lider 2020 FLATBED</h3>
+                        <div class="item-bottom">
+                            <span class="loc">Turkey</span>
+                            <span class="cost">11 000€</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="main-footer">
+        <div class="footer-line"></div>
+        <div class="wrap">
+            <div class="footer-cols">
+                <div class="f-col">
+                    <h2 class="f-logo">NOVO</h2>
+                    <p>Маркетплейс коммерческого транспорта</p>
+                </div>
+                <div class="f-col">
+                    <h3>Покупателю</h3>
+                    <p>Служба поддержки</p>
+                </div>
+                <div class="f-col">
+                    <h3>Соцсети</h3>
+                    <div class="icons">
+                        <img src="/img/fb.svg" alt="Facebook">
+                        <img src="/img/inst.svg" alt="Instagram">
+                    </div>
+                </div>
+            </div>
+            <div class="copy-box">
+                <p>© 2019–2020 Группа компаний «NOVO»</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

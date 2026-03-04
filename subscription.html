@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ru"> <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Commissioner:wght@100..900&family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Lato:ital,wght@0,100..900;1,100..900&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:wght@800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="/css/subsctiption.css">
+    <title>Subscription</title>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1 class="header-h2">NOVO SELLER</h1> <select id="language-select" name="Язык" class="language">
+                <option value="moscow">Язык</option>
+                <option value="russian">Русский</option>
+                <option value="english">English</option>
+                <option value="ukranian">Український</option>
+            </select>
+            
+            <select id="currency-select" name="Валюта" class="language">
+                <option value="moscow">Валюта</option>
+                <option value="russian">RUB ₽</option>
+                <option value="english">GBP £</option>
+                <option value="ukranian">ISO ₴</option>
+            </select>
+            
+            <button class="header-btn" type="button">
+                <span class="header-btn-txt">Перейти на NOVO</span>
+            </button>
+        </header>
+
+        <h2 class="ah-h2">Управление подпиской</h2>
+        <nav class="nav">
+            <div class="nav-block"><a href="/ad.html" class="nav-txt">Мои объявления</a></div>
+            <div class="nav-block"><a href="#" class="nav-txt">Сообщения</a><span class="nav-txt-2">(4 новых)</span></div>
+            <div class="nav-block"><a href="/subscription.html" class="nav-txt">Управление подпиской</a></div>
+            <div class="nav-block">
+                <img src="/img/settings-1.svg" class="settings-1" alt="Иконка настроек">
+                <a href="/settings.html" class="nav-txt">Настройки профиля</a>
+            </div>
+        </nav>
+    </div>
+
+    <main class="main"> <div class="container">
+            <h2 class="main-h2">Ваш тарифный план:</h2>
+            <div class="costs-card-all">
+                <div class="costs-card">
+                    <div class="costs-card-content">
+                        <img src="/img/circles-1.png" class="circles-1" alt="Тариф Starter">
+                        <p class="costs-card-p">Starter</p>
+                        <span class="costs-card-span">Бесплатно</span>
+                        <h3 class="costs-card-h2">До 10 объявлений</h3>
+                    </div>
+                </div>
+                <div class="costs-card-txts-all">
+                    <div class="costs-card-txts">
+                        <h3 class="costs-card-txts-h2">Оплачено:</h3>
+                        <p class="costs-card-txts-p">15.10.2020</p>
+                    </div>
+                    <div class="costs-card-txts">
+                        <h3 class="costs-card-txts-h2">Действителен до:</h3>
+                        <p class="costs-card-txts-p">15.10.2021</p>
+                    </div>
+                    <div class="costs-card-txts">
+                        <span class="costs-card-txts-span">Вы выбрали бесплатный пакет Starter, который действует до </span>
+                        <span class="costs-card-txts-span-2">15.10.2021.</span><br>
+                        <span class="costs-card-txts-span">С </span>
+                        <span class="costs-card-txts-span-2">15.09.21</span>
+                        <span class="costs-card-txts-span"> этот пакет будет стоить</span>
+                        <span class="costs-card-txts-span-2"> 499 гривен / месяц</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="costs-card-line"></div>
+            <h2 class="main-h2">Другие тарифные планы:</h2>
+            
+            <div class="costs-card-all-2">
+                <div class="costs-cards">
+                    <div class="costs-card">
+                        <div class="costs-card-content">
+                            <img src="/img/circles-02-2.png" alt="Тариф Premium">
+                            <p class="costs-card-p">Premium</p>
+                            <span class="costs-card-span-2">₴</span><span class="costs-card-span">999</span><span class="costs-card-span-2">/ месяц</span>
+                            <h3 class="costs-card-h2">До 30 объявлений</h3>
+                            <button class="costs-btn" type="button">
+                                <span class="costs-btn-txt">&gt;</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="costs-card">
+                        <div class="costs-card-content">
+                            <img src="/img/circles-03-2.png" alt="Тариф Ultimate">
+                            <p class="costs-card-p">Ultimate</p>
+                            <span class="costs-card-span-2">₴</span><span class="costs-card-span">1999</span><span class="costs-card-span-2">/ месяц</span>
+                            <h3 class="costs-card-h2">До 50 объявлений</h3>
+                            <button class="costs-btn" type="button">
+                                <span class="costs-btn-txt">&gt;</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="costs-card-info">
+                    <h3 class="costs-card-info-h2">Для размещения более 50-ти объявлений в месяц, свяжитесь с отделом продаж</h3>
+                    <button class="costs-card-info-btn" type="button">
+                        <span class="costs-card-info-btn-txt">отдел продаж</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-line"></div>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-content-txt">
+                    <h2 class="footer-content-h2">NOVO</h2>
+                    <p class="footer-content-p">Маркетплейс коммерческого транспорта<br> и тяжелой техники</p>
+                </div>
+                <div class="footer-content-txt">
+                    <h3 class="footer-content-h2-2">Покупателю</h3>
+                    <p class="footer-content-p-2">Служба поддержки</p>
+                </div>
+                <div class="footer-content-txt">
+                    <h3 class="footer-content-h2-3">Компания</h3> <p class="footer-content-p-2">Служба поддержки</p>
+                </div>
+                <div class="footer-content-txt">
+                    <h3 class="footer-content-h2-2">Следите за нами</h3>
+                    <img src="/img/facebook-logo-button.svg" class="facebook-logo-button" alt="Facebook">
+                    <img src="/img/instagram-1.svg" class="instagram-1" alt="Instagram">
+                    <img src="/img/youtube.svg" class="youtube" alt="YouTube">
+                </div>
+            </div>
+            <div class="footer-mini">
+                <p class="footer-mini-h2">© 2019–2020 Группа компаний «NOVO»</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

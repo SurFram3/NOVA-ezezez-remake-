@@ -1,0 +1,263 @@
+body {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Manrope", sans-serif;
+}
+
+.ogranichitel {
+    width: 100%;
+    max-width: 1216px;
+    margin: 0 auto;
+}
+
+.shapka {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+}
+
+.levaya-chast {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.logo-tekst {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: #009661;
+}
+
+.vibor-spisok {
+    border: 0;
+    font-weight: 600;
+    font-size: 14px;
+    color: #252525;
+    background: none;
+    cursor: pointer;
+}
+
+.ssilka-poisk {
+    font-weight: 600;
+    font-size: 14px;
+    color: #252525;
+    text-decoration: none;
+}
+
+.pravaya-chast {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.knopka-profil {
+    font-weight: 600;
+    font-size: 14px;
+    color: #009661;
+    cursor: pointer;
+}
+
+/* ИСПРАВЛЕНО: Стили для ссылки, которая выглядит как кнопка */
+.perehod-btn {
+    display: inline-flex; /* Чтобы работало центрирование и размеры */
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    padding: 16px 32px;
+    background: rgba(70, 137, 102, 0.06);
+    border: 0;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #009661;
+    text-decoration: none; /* Убираем подчеркивание */
+    box-sizing: border-box;
+}
+
+.osnovnoy-blok {
+    background: #f9f9fa;
+    text-align: center;
+    min-height: 800px;
+}
+
+.centrovka-formy {
+    display: flex;
+    justify-content: center;
+    padding-top: 90px;
+}
+
+.belaya-forma {
+    background: #FFFFFF;
+    border-radius: 8px;
+    padding: 60px 90px;
+    width: 100%;
+    max-width: 418px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+}
+
+.zagolovok-formy {
+    font-size: 45px;
+    font-weight: 700;
+    color: #252525;
+    margin: 0;
+}
+
+.spisok-poley {
+    display: grid;
+    padding-top: 48px;
+    row-gap: 16px;
+}
+
+.pole-blok {
+    text-align: left;
+}
+
+.podpis-polya {
+    font-size: 14px;
+    margin: 0 0 8px 0;
+}
+
+.pole-vvoda {
+    padding: 16px 20px;
+    border: 2px solid #E9E9E9;
+    border-radius: 2px;
+    width: 100%;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.galochka-blok {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding-top: 6px;
+}
+
+.tekst-galochki {
+    font-size: 14px;
+    color: #8B959E;
+}
+
+.knopka-prodolzhit {
+    border-radius: 4px;
+    padding: 16px 32px;
+    background: #009661;
+    color: #FFFFFF;
+    border: 0;
+    cursor: pointer;
+    margin-top: 40px;
+    width: 100%;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.vopros-regi {
+    display: flex;
+    gap: 8px;
+    padding: 32px 0 150px 0;
+    justify-content: center;
+}
+
+.tekst-voprosa {
+    font-size: 16px;
+    color: #252525;
+}
+
+.ssilka-regi {
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #009661;
+    text-decoration: none;
+}
+
+.podval {
+    background: #1B1B1E;
+}
+
+.podval-liniya {
+    height: 1px;
+    background: #858586;
+}
+
+.podval-kontent {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 0 36px 0;
+}
+
+.podval-logo {
+    font-family: "IBM Plex Sans";
+    font-size: 48px;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.podval-p, .podval-zag {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.podval-link {
+    color: #FFFFFF;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.soc-seti {
+    display: flex;
+    gap: 15px;
+}
+
+.podval-niz {
+    border-top: 1px solid #858586;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.copy {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.menyu-profilya {
+    position: relative;
+}
+
+.vipadashka {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #fff;
+    min-width: 200px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    z-index: 5;
+}
+
+.menyu-profilya:hover .vipadashka {
+    display: block;
+}
+
+.punkt-menyu {
+    padding: 12px;
+    text-decoration: none;
+    display: block;
+    color: #8B959E;
+    font-size: 14px;
+}
+
+.punkt-menyu:hover {
+    background: #f5f7f8;
+}
+
+.zeleniy-tekst {
+    color: #009661;
+}

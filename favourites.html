@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/favourites.css">
+    <title>Избранное | NOVO</title>
+</head>
+<body>
+
+    <header class="header">
+        <div class="container header__container">
+            <div class="header__left">
+                <a href="/" class="header__logo">NOVO</a>
+                
+                <div class="header__selectors">
+                    <select id="language" name="Language" class="custom-select">
+                        <option value="ru">Русский</option>
+                        <option value="en">English</option>
+                    </select>
+                    
+                    <select id="currency" name="Currency" class="custom-select">
+                        <option value="rub">RUB ₽</option>
+                        <option value="eur">EUR €</option>
+                    </select>
+                </div>
+                
+                <a class="header__search-link" href="#">Поиск</a>
+            </div>
+
+            <div class="header__right">
+                <div class="profile-dropdown">
+                    <button class="profile-dropdown__btn">Мой профиль</button>
+                    <div class="profile-dropdown__content">
+                        <a href="/favorites" class="profile-dropdown__link">Избранное</a>
+                        <a href="/messages" class="profile-dropdown__link">
+                            Сообщения <span class="text-green">(4 новых)</span>
+                        </a>
+                        <a href="/settings" class="profile-dropdown__link">Настройки</a>
+                    </div>
+                </div>
+                <a href="/index.html" class="btn btn--secondary">Перейти на NOVO</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <div class="container">
+            <nav class="breadcrumbs">
+                <a href="/" class="breadcrumbs__link">Главная</a>
+                <span class="breadcrumbs__separator">></span>
+                <a href="#" class="breadcrumbs__link">Мой кабинет</a>
+                <span class="breadcrumbs__separator">></span>
+                <span class="breadcrumbs__current">Избранное</span>
+            </nav>
+
+            <h1 class="page-title">Настройки открыты</h1>
+
+            <nav class="tabs-nav">
+                <a href="/favourites.html" class="tabs-nav__item tabs-nav__item--active">Избранное</a>
+                <a href="#" class="tabs-nav__item">
+                    Сообщения <span class="text-green">(4 новых)</span>
+                </a>
+                <a href="/settings-user.html" class="tabs-nav__item">
+                    <img src="/img/settings-1.svg" alt="" class="tabs-nav__icon">
+                    Настройки профиля
+                </a>
+            </nav>
+
+            <div class="search-bar">
+                <div class="search-bar__wrapper">
+                    <img src="/img/search.svg" class="search-bar__icon" alt="Поиск">
+                    <input class="search-bar__input" placeholder="Поиск по объявлениям">
+                </div>
+            </div>
+
+            <div class="cards-grid">
+                <article class="car-card">
+                    <div class="car-card__image-wrapper">
+                        <img src="/img/car-card-img-1.png" class="car-card__img" alt="Opel COMBO">
+                    </div>
+                    <div class="car-card__body">
+                        <span class="car-card__category">Закрытые грузопассажирские</span>
+                        <h2 class="car-card__title">Opel COMBO Airco Elct Ramen</h2>
+                        
+                        <div class="car-card__tags">
+                            <span class="tag">2015</span>
+                            <span class="tag">2,000 kg</span>
+                            <span class="tag">490,574 km</span>
+                        </div>
+                        
+                        <div class="car-card__footer">
+                            <div class="car-card__location">
+                                <img src="/img/location-img.svg" alt="">
+                                <span>Garage van Nierop<br>Netherlands</span>
+                            </div>
+                            <div class="car-card__price">1,500€</div>
+                        </div>
+                    </div>
+                </article>
+
+                </div>
+
+            <div class="load-more">
+                <button class="btn btn--primary">Загрузить ещё</button>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__grid">
+                <div class="footer__col">
+                    <h2 class="footer__logo">NOVO</h2>
+                    <p class="footer__desc">Маркетплейс коммерческого транспорта и тяжелой техники</p>
+                </div>
+                <div class="footer__col">
+                    <h3 class="footer__title">Покупателю</h3>
+                    <a href="#" class="footer__link">Служба поддержки</a>
+                </div>
+                <div class="footer__col">
+                    <h4 class="footer__title">Компания</h4>
+                    <a href="#" class="footer__link">О нас</a>
+                </div>
+                <div class="footer__col">
+                    <h4 class="footer__title">Следите за нами</h4>
+                    <div class="footer__socials">
+                        <a href="#"><img src="/img/facebook.svg" alt="FB"></a>
+                        <a href="#"><img src="/img/instagram-1.svg" alt="IG"></a>
+                        <a href="#"><img src="/img/youtube.svg" alt="YT"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p>© 2019–2026 Группа компаний «NOVO»</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
+

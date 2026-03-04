@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=IBM+Plex+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/registration-user.css">
+    <title>Registration user</title>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="header-first">
+                <h2 class="header-h2">NOVO</h2>
+                <select name="Язык" class="language"> <option value="moscow" class="language-txt">Язык</option>
+                    <option value="russian">Русский</option>
+                    <option value="english">English</option>
+                    <option value="ukranian">Український</option>
+                </select>
+                <select name="Валюта" class="language"> <option value="moscow" class="language-txt">Валюта</option>
+                    <option value="russian">RUB ₽</option>
+                    <option value="english">GBP £</option>
+                    <option value="ukranian">ISO ₴</option>
+                </select>
+                <a class="header-txt" href="#">Поиск</a>
+            </div>
+            <div class="header-btns">
+                <div class="profile-menu">
+                    <span class="header-btn">Мой профиль</span>
+                    <div class="menu-content">
+                        <a href="/favorites" class="menu-content-a">Избранное</a>
+                        <a href="/messages" class="menu-content-a">Сообщения <span class="menu-content-a-green">(4 новых)</span></a>
+                        <a href="/settings" class="menu-content-a">Настройки профиля</a>
+                    </div>
+                </div>
+                <a href="/index.html" class="header-btn-2">Перейти на NOVO</a>
+            </div>
+        </header>
+    </div>
+    <section class="main">
+        <div class="container">
+            <div class="full-form">
+                <form class="form">
+                    <h2 class="form-title">Регистрация</h2>
+                    <p class="form-title-mini">Заполните указаные поля,<br>чтобы создать акаунт</p>
+                    <div class="form-contents">
+                        <div class="form-content">
+                            <p class="form-content-p">Имя</p>
+                            <input class="form-content-input" type="text">
+                        </div>
+                        <div class="form-content">
+                            <p class="form-content-p">Фамилия</p>
+                            <input class="form-content-input" type="text">
+                        </div>
+                        <div class="form-content">
+                            <p class="form-content-p">E-mail</p>
+                            <input class="form-content-input" type="email">
+                        </div>
+                        <div class="form-content">
+                            <p class="form-content-p">Придумайте пароль</p>
+                            <input class="form-content-input" type="password">
+                        </div>
+                    </div>
+                    <div class="checkbox-class">
+                        <input type="checkbox" class="checkbox-input" id="terms">
+                        <label for="terms" class="checkbox-txts">
+                            <span class="checkbox-txt">Авторизуясь, Вы принимаете</span>
+                            <span class="checkbox-txt-2"> Условия использования</span><br>
+                            <span class="checkbox-txt"> и</span><span class="checkbox-txt-2"> Заявлением о конфиденциальности</span>
+                            <span class="checkbox-txt"> NOVO</span>
+                        </label>
+                    </div>
+                    <button type="submit" class="form-btn">
+                        <span class="form-btn-txt">Продолжить</span>
+                    </button>
+                </form>
+            </div>
+            <div class="registration-question">
+                <span class="registration-question-span">Уже есть акаунт?</span>
+                <a class="registration-question-a" href="/log-in.html">Войти</a>
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <div class="footer-line"></div>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-content-txt">
+                    <h2 class="footer-content-h2">NOVO</h2>
+                    <p class="footer-content-p">Маркетплейс коммерчиского транспорта<br> и тяжелой техники</p>
+                </div>
+                <div class="footer-content-txt">
+                    <h2 class="footer-content-h2-2">Покупателю</h2>
+                    <p class="footer-content-p-2">Служба поддержки</p>
+                </div>
+                <div class="footer-content-txt">
+                    <h2 class="footer-content-h2-3">dasdsadasd</h2>
+                    <p class="footer-content-p-2">Служба поддержки</p>
+                </div>
+                <div class="footer-content-txt">
+                    <h2 class="footer-content-h2-2">Следите за нами</h2>
+                    <div class="soc-seti-flex" style="display: flex; gap: 15px; align-items: center;">
+                        <img src="/img/facebook-logo-button.svg" alt="facebook">
+                        <img src="/img/instagram-1.svg" alt="instagram"> <img src="/img/youtube.svg" alt="youtube">
+                    </div>
+                </div>
+            </div>
+            <div class="footer-mini">
+                <h2 class="footer-mini-h2">© 2019–2020 Группа компаний «NOVO»</h2>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

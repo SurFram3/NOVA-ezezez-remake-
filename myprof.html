@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@700&family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/myprof.css">
+    <title>Мои объявления | NOVO SELLER</title>
+</head>
+<body class="page">
+    <header class="header">
+        <div class="container header__container">
+            <div class="header__logo">NOVO SELLER</div>
+            <div class="header__actions">
+                <select name="Language" class="header__select">
+                    <option value="russian">Русский</option>
+                    <option value="english">English</option>
+                </select>
+                <select name="Currency" class="header__select">
+                    <option value="rub">RUB ₽</option>
+                    <option value="eur">EUR €</option>
+                </select>
+                <button class="header__button">Перейти на NOVO</button>
+            </div>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <div class="container">
+            <h1 class="profile-title">Мои объявления</h1>
+            
+            <nav class="navigation">
+                <a href="/myprof.html" class="navigation__link navigation__link--active">Мои объявления</a>
+                <div class="navigation__item">
+                    <a href="#" class="navigation__link">Сообщения</a>
+                    <span class="navigation__badge">(4 новых)</span>
+                </div>
+                <a href="/subscription.html" class="navigation__link">Управление подпиской</a>
+                <div class="navigation__item">
+                    <img src="/img/settings-1.svg" class="navigation__icon" alt="">
+                    <a href="/settings.html" class="navigation__link">Настройки профиля</a>
+                </div>
+            </nav>
+
+            <div class="ads-stats">
+                <p class="ads-stats__text">Использовано объявлений: <span class="ads-stats__value">4/10</span></p>
+            </div>
+
+            <div class="search-panel">
+                <div class="search-panel__group">
+                    <img src="/img/search.svg" class="search-panel__icon" alt="Поиск">
+                    <input class="search-panel__input" placeholder="Поиск по объявлениям">
+                </div>
+                <button class="search-panel__add-btn">
+                    <span class="search-panel__add-icon">+</span>
+                    добавить объявление
+                </button>
+            </div>
+
+            <div class="cards-grid">
+                <article class="card">
+                    <img src="/img/car-card-img-1.png" class="card__image" alt="Opel COMBO">
+                    <div class="card__content">
+                        <span class="card__category">Закрытые грузопассажирские автомобили</span>
+                        <h2 class="card__title">Opel COMBO Airco Elct Ramen Stuurbediening</h2>
+                        
+                        <div class="card__tags">
+                            <span class="card__tag">2015</span>
+                            <span class="card__tag">2000 kg</span>
+                            <span class="card__tag">490 574 km</span>
+                        </div>
+
+                        <div class="card__footer">
+                            <div class="card__location">
+                                <img src="/img/location-img.svg" alt="">
+                                <p class="card__location-text">Garage van Nierop<br>Netherlands</p>
+                            </div>
+                            <div class="card__price">1 500€</div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+
+            <div class="pagination">
+                <button class="pagination__button">Загрузить ещё</button>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__top">
+                <div class="footer__brand">
+                    <div class="footer__logo">NOVO</div>
+                    <p class="footer__slogan">Маркетплейс коммерческого транспорта и тяжелой техники</p>
+                </div>
+                <div class="footer__nav">
+                    <div class="footer__col">
+                        <h3 class="footer__caption">Покупателю</h3>
+                        <a href="#" class="footer__link">Служба поддержки</a>
+                    </div>
+                    <div class="footer__col">
+                        <h3 class="footer__caption">Следите за нами</h3>
+                        <div class="footer__socials">
+                            <a href="#"><img src="/img/facebook.svg" alt="Facebook"></a>
+                            <a href="#"><img src="/img/instagram.svg" alt="Instagram"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <p class="footer__copyright">© 2019–2020 Группа компаний «NOVO»</p>
+        </div>
+    </footer>
+</body>
+</html>

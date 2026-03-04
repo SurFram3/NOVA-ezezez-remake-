@@ -1,0 +1,327 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Manrope", sans-serif;
+}
+
+.ogranichitel {
+    width: 100%;
+    max-width: 1216px;
+    margin: 0 auto;
+}
+
+.cherniy-verh {
+    background: #141416;
+}
+
+.shapka {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 88px;
+}
+
+.menu {
+    display: flex;
+    gap: 60px;
+}
+
+.link-menu {
+    font-weight: 600;
+    font-size: 14px;
+    color: #858586;
+    text-decoration: none;
+}
+
+/* ИСПРАВЛЕНО: Теперь это стили для ссылки-кнопки */
+.vhod-btn {
+    width: 116px;
+    height: 56px;
+    border-radius: 8px;
+    background-color: #1B1B1E;
+    border: 0;
+    cursor: pointer;
+    display: inline-flex; /* Центрирование содержимого */
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: 700;
+    text-transform: uppercase;
+    box-sizing: border-box;
+}
+
+.perviy-ekran {
+    background: url(../img/backround-tractor.jpg);
+    width: 100%;
+    background-size: cover;
+    height: 850px;
+}
+
+.promo-text {
+    padding-top: 157px;
+}
+
+.podpis {
+    font-size: 24px;
+    opacity: 0.6;
+    color: #FFFFFF;
+}
+
+.zag-glavniy {
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #FFFFFF;
+}
+
+/* ИСПРАВЛЕНО: Стили для зеленой ссылки-кнопки */
+.zelenaya-knopka {
+    background-color: #009661;
+    border-radius: 8px;
+    border: 0;
+    padding: 20px 32px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.o-nas {
+    background: #141416;
+    padding-bottom: 50px;
+}
+
+.malenkiy-zag {
+    font-size: 24px;
+    text-align: center;
+    color: #858586;
+    padding-top: 90px;
+}
+
+.sredniy-zag {
+    font-size: 40px;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.karty-box {
+    display: flex;
+    gap: 20px;
+    padding-top: 90px;
+    padding-bottom: 180px;
+}
+
+.karta-1, .karta-2, .karta-3, .karta-4 {
+    width: 289px;
+    height: 410px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.karta-1 { background: url(../img/novo-card-1.png); }
+.karta-2 { background: url(../img/novo-card-2.png); }
+.karta-3 { background: url(../img/novo-card-3.png); }
+.karta-4 { background: url(../img/novo-card-4.png); }
+
+.karta-1:hover, .karta-2:hover, .karta-3:hover, .karta-4:hover {
+    transform: translateY(-20px);
+}
+
+.karta-txt {
+    color: #FFFFFF;
+    font-size: 24px;
+    padding-top: 315px;
+    padding-left: 32px;
+}
+
+.interesnoe {
+    background: #1B1B1E;
+    height: 639px;
+    overflow: hidden;
+}
+
+.spisok-faktov {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 90px;
+}
+
+.fakt-item {
+    font-size: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.kartinka-fakt {
+    position: relative;
+    left: -100px;
+    bottom: 50px;
+}
+
+.tarifi {
+    background: #141416;
+    padding-bottom: 100px;
+}
+
+.setka-tarifov {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.tarif-card {
+    width: 289px;
+    height: 368px;
+    transition: 0.3s;
+}
+
+.tarif-card:hover {
+    background: #1B1B1E;
+}
+
+.vnutri-card {
+    text-align: center;
+    padding-top: 40px;
+}
+
+.name-tarif { color: white; font-weight: 600; }
+.cena { font-size: 40px; color: white; }
+.valuta { color: #676769; font-size: 14px; }
+.opis-tarif { color: #009661; font-size: 18px; font-weight: 400; }
+
+.kruglaya-knopka {
+    width: 56px;
+    height: 56px;
+    border: 2px solid #009661;
+    background: none;
+    border-radius: 50%;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.kruglaya-knopka:hover {
+    background: #009661;
+}
+
+.zvonok-block {
+    background: #1B1B1E;
+    display: flex;
+    margin: 170px auto;
+    width: 703px;
+    padding: 30px;
+    border-radius: 8px;
+    align-items: center;
+    gap: 60px;
+}
+
+.vopros { color: white; font-size: 24px; }
+.otvet { color: #858586; }
+
+.knopka-otdel {
+    background: #009661;
+    color: white;
+    padding: 16px 26px;
+    border-radius: 8px;
+    border: 0;
+    text-transform: uppercase;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.modal-fon {
+    background: rgba(37, 37, 37, 0.75);
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+}
+
+.okno-modal {
+    background: #1B1B1E;
+    padding: 60px;
+    border-radius: 8px;
+    text-align: center;
+    position: relative;
+}
+
+.krestik {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+}
+
+.zag-modal { color: white; font-size: 32px; }
+.tekst-modal { color: #868686; }
+
+.input-style {
+    background: none;
+    border: none;
+    border-bottom: 2px solid rgba(162, 165, 166, 0.2);
+    width: 100%;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    color: white;
+}
+
+/* ИСПРАВЛЕНО: Стили для кнопки отправки в модалке */
+.otpravit-btn {
+    background: #009661;
+    border: 0;
+    padding: 16px 30px;
+    border-radius: 8px;
+    margin-top: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.shagi-prodazh { background: #1B1B1E; padding-bottom: 100px; }
+
+.shag-blok-1, .shag-blok-2, .shag-blok-3 {
+    display: flex;
+    align-items: center;
+    gap: 120px;
+    margin-top: 80px;
+}
+
+.shag-blok-3 { justify-content: flex-end; }
+
+.shag-nomer { color: #858586; font-size: 16px; }
+.shag-nazv { color: white; font-size: 24px; }
+
+.niz-knopka-box { text-align: center; margin-top: 80px; }
+
+.podval { background: #1B1B1E; padding-top: 60px; }
+.liniya { height: 1px; background: #858586; width: 100%; }
+.f-kontent { display: flex; justify-content: space-between; padding: 40px 0; }
+.f-logo { font-family: "IBM Plex Sans"; font-size: 48px; color: white; margin: 0; }
+.f-p { color: rgba(255,255,255,0.6); font-size: 14px; }
+.f-zag { color: rgba(255,255,255,0.6); font-size: 14px; }
+.f-link { color: white; font-weight: 700; text-transform: uppercase; }
+.soc-seti { display: flex; gap: 15px; }
+
+.f-mini { border: 1px solid #858586; height: 50px; display: flex; align-items: center; justify-content: center; }
+.copy { color: rgba(255,255,255,0.6); font-size: 14px; }
+
+.hidden { display: none; }

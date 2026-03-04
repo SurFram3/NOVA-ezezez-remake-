@@ -1,0 +1,188 @@
+body {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.obolochka {
+    width: 100%;
+    max-width: 1216px;
+    margin: 0 auto;
+}
+
+.shapka {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.logo-text {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: #252525;
+}
+
+.vybor-yazika {
+    border: 0;
+    font-family: "Manrope", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: #252525;
+}
+
+.top-knopka {
+    height: 56px;
+    border-radius: 4px;
+    padding: 0 32px;
+    background: #009661;
+    cursor: pointer;
+    border: 0;
+}
+
+.btn-text-white {
+    color: #ffffff;
+    font-family: "Manrope";
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.zagolovok-1 {
+    font-family: "Manrope";
+    font-weight: 700;
+    font-size: 45px;
+    margin: 20px 0;
+}
+
+.verh-menu {
+    display: flex;
+    gap: 60px;
+    align-items: center;
+}
+
+.punkt-menu {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding-bottom: 10px;
+}
+
+.link-black {
+    text-decoration: none;
+    color: #252525;
+    font-weight: 600;
+}
+
+.uvedomlenie {
+    color: #009661;
+    font-weight: 600;
+}
+
+.seraya-zona {
+    background: #f8f9fa;
+    padding-bottom: 50px;
+}
+
+.knopki-upravleniya {
+    display: flex;
+    justify-content: space-between;
+    padding: 29px 0;
+}
+
+.zelenaya-knopka {
+    background: #6C9F831A;
+    border-radius: 4px;
+    padding: 10px 15px;
+    border: none;
+    color: #009661;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.krasnaya-knopka {
+    background: #EB57571A;
+    border-radius: 4px;
+    padding: 10px 15px;
+    border: none;
+    color: #EB5757;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.kartochka-mashini {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.foto-block {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.mini-foto-list {
+    display: flex;
+    gap: 20px;
+}
+
+.big-pic { width: 100%; border-radius: 4px; }
+.pic-small { width: 100px; }
+
+.praviy-info-block {
+    background: #FFFFFF;
+    padding: 24px;
+    border-radius: 8px;
+    width: 450px;
+}
+
+.car-nazvanie { font-size: 24px; font-family: "Manrope"; }
+
+.razdelitel {
+    background: #E8E9E8;
+    height: 1px;
+    margin: 20px 0;
+}
+
+.tri-kolonki {
+    display: flex;
+    justify-content: space-between;
+}
+
+.maly-tekst-grey { color: #8B959E; font-size: 14px; }
+.bold-text { font-size: 16px; font-weight: 600; }
+
+.tablica { display: flex; margin-top: 20px; }
+.yacheyka-grey { background: rgba(139, 149, 158, 0.05); padding: 15px; border-radius: 4px; width: 280px;}
+.yacheyka-white { padding: 15px; width: 280px;}
+
+.opisanie-block { width: 690px; margin-top: 40px; }
+.big-title { font-size: 24px; }
+.small-title { font-size: 16px; margin-top: 20px; }
+.main-text { color: #868686; line-height: 1.7; }
+.knopka-more { color: #009661; cursor: pointer; }
+
+.niz-sayta { background: #1B1B1E; color: white; padding: 40px 0; }
+.footer-grid { display: flex; justify-content: space-between; }
+.f-logo { font-size: 48px; color: white; }
+.posledniy-block { border-top: 1px solid #858586; margin-top: 30px; padding: 20px; text-align: center; }
+
+.okno-udaleniya {
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(0,0,0,0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.popup-box {
+    background: white;
+    padding: 50px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.skryto { display: none; }
